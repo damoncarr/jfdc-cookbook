@@ -15,7 +15,7 @@ ingredients:
 - 2 tsp cumin
 - 2 tsp paprika
 - 1 tsp salt
-- ½ tsp chilli powder
+- "½ tsp chilli powder"
 - 2 tsp garam masala
 - 6 hard boiled eggs
 Serves: 4

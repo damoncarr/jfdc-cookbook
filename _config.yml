@@ -1,29 +1,5 @@
 ---
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 title: JFDC Cookbook
-tagline: A collection of recipies we like to cook
-email: dc@damon.com.au
-description: >- # this means to ignore newlines until "baseurl:"
-  Yummy food
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: damo
-instagram_username: damo.photo
-facebook_username: 
-
-# Build settings
-markdown: kramdown
-highlighter: pygmentize # or rouge or null
-exclude: ["node_modules", "gulpfile.js", "package.json"]
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
-
-
 timezone: UTC
 collections:
   posts:
@@ -47,23 +23,23 @@ defaults:
     type: pages
   values:
     layout: page
+tagline: A collection of recipies we like to cook
+email: dc@damon.com.au
+description: Yummy food
+baseurl: "/"
+url: ''
+twitter_username: damo
+instagram_username: damo.photo
+facebook_username: 
+markdown: kramdown
+highlighter: pygmentize
+exclude:
+- node_modules
+- gulpfile.js
+- package.json
+plugins:
+- jekyll-feed
+- jekyll-paginate
 permalink: pretty
-
-# Sass
 sass:
   sass_dir: css
-  
-# Paginate settings
-#paginate: 5
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
