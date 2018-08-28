@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<div class="page">
+  <h1 class="page-title">{{ page.title }}</h1>
+  {% if page.serves %}
+    <p>Serves: {{ page.serves }}</p>
+  {% endif %}
+  {% if page.prep-time %}
+  <p>Prep time: {{ page.prep-time }}</p>
+  {% endif %}
+  {% if page.cook-time %}
+  <p>Cooking time: {{ page.cook-time }}</p>
+  {% endif %}
+
+  {% if page.cuisine %}
+  <div class="cuisine">
+    <strong>Cuisine:</strong> {{ page.cuisine }}
+  </div>
+  {% endif %}
+
+  <div class="ingredients">
+    <h3>Ingredients</h3>
+    <ul>
+      {% for item in page.ingredients %}
+        <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+    {% if page.ingredients-to-serve %}
+    <h3>Ingredients to serve</h3>
+      <ul>
+        {% for item in page.ingredients-to-serve %}
+          <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </div>
+  {{ content }}
+</div>

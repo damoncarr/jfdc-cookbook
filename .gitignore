@@ -40,6 +40,8 @@ public/css
 *.tar
 *.zip
 
+### VS Code ###
+.vscode
 
 ### Logs and Databases ###
 *.log

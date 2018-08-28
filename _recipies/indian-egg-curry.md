@@ -1,8 +1,9 @@
 ---
 title: Indian Egg Curry
 date: 2018-08-28 02:47:00 Z
+layout: recipe
 cuisine: Indian
-Ingredients:
+ingredients:
 - 4 medium onions
 - 2 cloves garlic
 - 2 tomatoes (skinned, chopped)
@@ -14,7 +15,7 @@ Ingredients:
 - 2 tsp cumin
 - 2 tsp paprika
 - 1 tsp salt
-- "½ tsp chilli powder"
+- ½ tsp chilli powder
 - 2 tsp garam masala
 - 6 hard boiled eggs
 Serves: 4

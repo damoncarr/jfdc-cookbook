@@ -1,0 +1,31 @@
+.site {
+	width: 95%;
+	max-width: 1080px;
+	background: $webdev-tint;
+} 
+
+.site-title {
+	display: none;
+}
+.tagline {
+	font-size: 0.75rem;
+	color: #ccc;
+	margin-top: 10px;
+}
+
+
+/*
+ * Container
+ */
+
+.container {
+  width: 90%;
+  margin: 10px auto;
+  
+  @include respond(med) {
+    width: auto;
+    max-width: 38em;
+    margin-left:  90px;
+    margin-right: 90px;
+  }
+}

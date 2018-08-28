@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  {% include head.html %}
+
+  <body class="{{ page.nav-class }} {{ page.layout }}">
+
+    {% include masthead.html %} 
+
+      <div class="container content">
+        {{ content }}
+      </div>
+    </div>
+
+    {% if page.layout == "photography" %}
+      {% include isotope-scripts.html %}
+    {% endif %}
+
+    
+  </body>
+</html>

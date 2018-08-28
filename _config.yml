@@ -54,7 +54,7 @@ sass:
   sass_dir: css
   
 # Paginate settings
-paginate: 5
+#paginate: 5
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
