@@ -1,6 +1,5 @@
 ---
 title: Indian Egg Curry
-date: 2018-08-28 02:47:00 Z
 layout: recipe
 cuisine: Indian
 ingredients:
