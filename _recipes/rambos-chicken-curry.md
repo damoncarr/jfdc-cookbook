@@ -1,29 +1,5 @@
 ---
-title: Rambo's Chicken Curry
-layout: recipe
-cuisine: 
-ingredients:
-- 8-12 chicken drumsticks (or 3 marylands cut into 3pcs. Skin on leg, skin off others)
-- 1 tsp chilli powder
-- 2 tbsp Roasted Curry Powder
-- 
-
-<!-- need to finish listing the ingredients  -->
-
-- 1 x 400g can chickpeas, rinsed and drained
-- 1 egg
-- 2 spring onions, finely chopped
-- 2 tbsp chopped coriander
-ingredients-to-serve:
-- 12 slices toasted Turkish bread or 6 wholemeal burger rolls
-- 1/2 cup baby spinach leaves
-- 2 tomatoes, sliced
-- 1 small red onion, finely sliced
-- 1 Lebanese cucumber, finely sliced
-- ¼ cup natural greek style yoghurt
-serves: 6
-prep-time: 25 minutes
-cook-time: 15 minutes
+title: Rambos Chicken Curry
 ---
 
 ### Method
