@@ -17,7 +17,7 @@ ingredients-to-serve:
 - 2 tomatoes, sliced
 - 1 small red onion, finely sliced
 - 1 Lebanese cucumber, finely sliced
-- ¼ cup natural greek style yoghurt
+- "¼ cup natural greek style yoghurt"
 serves: 6
 prep-time: 25 minutes
 cook-time: 15 minutes
