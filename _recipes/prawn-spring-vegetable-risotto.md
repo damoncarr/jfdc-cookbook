@@ -19,7 +19,7 @@ ingredients:
 - 2 tsp lemon juice
 - a quarter cup finely grated parmesan cheese
 - 1 tbsp finely chopped fresh chives, extra
-ingredients-to-serve:
+ingredients-to-serve: 
 serves: 4
 prep-time: 25 minutes
 cook-time: 15 minutes
