@@ -15,8 +15,8 @@ ingredients:
 - 3 teaspoons lime juice
 - 1 cup (250ml) coconut cream
 - 2 tablespoons chopped fresh basil
-- 2 tablespoons chopped fresh coriander 
-ingredients-to-serve:
+- 2 tablespoons chopped fresh coriander
+ingredients-to-serve: 
 serves: 4-6
 prep-time: 
 cook-time: 
