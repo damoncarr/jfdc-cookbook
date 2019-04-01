@@ -7,3 +7,10 @@ layout: default
     <li><a href="{{ item.url }}">{{ item.title }}</a></li>
   {% endfor %}
 </ul>
+
+
+{% for items in site.recipes %}
+  {% for item in items %}
+    {{ item }}: {{ items[item] }}
+  {% endfor %}
+{% endfor %}

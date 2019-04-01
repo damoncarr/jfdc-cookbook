@@ -82,9 +82,8 @@ function watch() {
     '*.md',
     '_layouts/*.html',
     '_pages/*',
-    'chapters/*',
+    '_recipes/*',
     '_posts/*',
-    '_data/*',
     'js/',
     '_includes/*'
   ],
