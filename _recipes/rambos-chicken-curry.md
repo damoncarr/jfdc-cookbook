@@ -3,15 +3,20 @@ title: Rambos Chicken Curry
 layout: recipe
 cuisine: 
 ingredients:
-- 3 piece of Maryland (each cut into 3 pieces... leave skin on leg)
-- 2 tablespoons Roasted curry powder
-- 1 teaspoon Turmeric
-- 1 teaspoon Chilli powder
-- 1 teaspoon Salt
-- 1 teaspoon Lemon pepper
-- OPTIONAL - 1 tablespoon madras curry powder
-- yeeweds
-ingredients-to-serve: 
+  - title:
+    list: 
+      - 3 piece of Maryland (each cut into 3 pieces... leave skin on leg)
+      - 2 tablespoons Roasted curry powder
+      - 1 teaspoon Turmeric
+      - 1 teaspoon Chilli powder
+      - 1 teaspoon Salt
+      - 1 teaspoon Lemon pepper
+      - OPTIONAL - 1 tablespoon madras curry powder
+      - yeeweds
+  - title: For sauce
+    list:
+      - sauce 1
+      - sauce 2
 serves: 4-6
 prep-time: 
 cook-time: 

@@ -3,23 +3,25 @@ title: Prawn and spring vegetable risotto
 layout: recipe
 cuisine: 
 ingredients:
-- 4 cups chicken or vegetable stock
-- 1 cup dry white wine
-- 2 tsp margarine
-- 2 tsp olive oil.
-- 1 large brown onion, chopped finely
-- 2 green shallots, sliced thinly
-- 1 clove garlic, crushed
-- 1 and a half cups arborio rice
-- 1 kg green prawns, peeled and de­veined (* or 500g chicken breast)
-- 250g asparagus, trimmed, sliced thickly
-- 100g snow peas halved
-- 100g sugar snap peas
-- 2 tbsp finely chopped chives
-- 2 tsp lemon juice
-- a quarter cup finely grated parmesan cheese
-- 1 tbsp finely chopped fresh chives, extra
-ingredients-to-serve: 
+    - ingredients:
+        - 4 cups chicken or vegetable stock
+        - 1 cup dry white wine
+        - 2 tsp margarine
+        - 2 tsp olive oil.
+        - 1 large brown onion, chopped finely
+        - 2 green shallots, sliced thinly
+        - 1 clove garlic, crushed
+        - 1 and a half cups arborio rice
+        - 1 kg green prawns, peeled and de­veined (* or 500g chicken breast)
+        - 250g asparagus, trimmed, sliced thickly
+        - 100g snow peas halved
+        - 100g sugar snap peas
+        - 2 tbsp finely chopped chives
+        - 2 tsp lemon juice
+        - a quarter cup finely grated parmesan cheese
+        - 1 tbsp finely chopped fresh chives, extra
+    - ingredients-to-serve:
+        - ingredient to serve 
 serves: 4
 prep-time: 25 minutes
 cook-time: 15 minutes

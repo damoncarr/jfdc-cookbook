@@ -3,24 +3,32 @@ title: Chickpea and Couscous Burgers
 layout: recipe
 cuisine: 
 ingredients:
-- 1 x 375ml pack Campbell's Real Stock - Vegetable
-- 1 cup couscous
-- 1 zucchini, grated
-- 1 carrot, grated
-- 1 x 400g can chickpeas, rinsed and drained
-- 1 egg
-- 2 spring onions, finely chopped
-- 2 tbsp chopped coriander
-ingredients-to-serve:
-- 12 slices toasted Turkish bread or 6 wholemeal burger rolls
-- 1/2 cup baby spinach leaves
-- 2 tomatoes, sliced
-- 1 small red onion, finely sliced
-- 1 Lebanese cucumber, finely sliced
-- "¼ cup natural greek style yoghurt"
+  - title:
+    list:
+      - 1 x 375ml pack Campbell's Real Stock - Vegetable
+      - 1 cup couscous
+      - 1 zucchini, grated
+      - 1 carrot, grated
+      - 1 x 400g can chickpeas, rinsed and drained
+      - 1 egg
+      - 2 spring onions, finely chopped
+      - 2 tbsp chopped coriander
+  - title: Ingredients to serve
+    list:
+      - 12 slices toasted Turkish bread or 6 wholemeal burger rolls
+      - 1/2 cup baby spinach leaves
+      - 2 tomatoes, sliced
+      - 1 small red onion, finely sliced
+      - 1 Lebanese cucumber, finely sliced
+      - ¼ cup natural greek style yoghurt
 serves: 6
-prep-time: 25 minutes
-cook-time: 15 minutes
+prep-time: 25
+cook-time: 15
+notes: 
+freeze:
+microwave:
+storage:
+source:
 ---
 
 ### Method

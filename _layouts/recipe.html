@@ -21,20 +21,17 @@ layout: default
   {% endif %}
 
   <div class="ingredients">
-    <h3>Ingredients</h3>
-    <ul>
-      {% for item in page.ingredients %}
-        <li>{{ item }}</li>
+    <h4>Ingredients</h4>
+      {% for ingredients in page.ingredients %}
+        {% if ingredients.title %}
+          <h4>{{ ingredients.title }}</h4>
+        {% endif %}
+        <ul>
+          {% for item in ingredients.list %}
+            <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
       {% endfor %}
-    </ul>
-    {% if page.ingredients-to-serve %}
-    <h3>Ingredients to serve</h3>
-      <ul>
-        {% for item in page.ingredients-to-serve %}
-          <li>{{ item }}</li>
-        {% endfor %}
-      </ul>
-    {% endif %}
   </div>
   {{ content }}
 </div>
