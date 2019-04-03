@@ -7,3 +7,28 @@ layout: default
     <li><a href="{{ item.url }}">{{ item.title }}</a></li>
   {% endfor %}
 </ul>
+
+
+{% assign myrecipes = site.recipes | group_by: 'tags' %}
+{% for tag in myrecipes %}
+<h2>{{ tag.name | capitalize }}</h2>
+    <ul>
+      {% assign items = tag.items | sort: 'order' %}
+      {% for item in items %}
+        <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+      {% endfor %}
+    </ul>
+{% endfor %}
+
+
+{% assign tags =  site.recipes | map: 'tags' | join: ','  | split: ',' | uniq %}
+{% for tag in tags %}
+  <h3>{{ tag }}</h3>
+  <ul>
+  {% for tags in site.recipes %}
+    {% if recipes.tags contains tag %}
+    <li><a href="{{ site.baseurl }}{{ recipes.url }}">{{ recipes.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+  </ul>
+{% endfor %}
