@@ -1,0 +1,29 @@
+.method ol li {
+  margin-bottom: 1em;
+}
+.recipe-section {
+  padding: 1em 40px;
+  border: 1px solid gray;
+  margin: 3em 0;
+  border-radius: 10px;
+}
+.metadata {
+  border-left: 4px solid $primary;
+
+  div {
+    margin: 1em 0;
+
+    &:first-child {
+      margin-top: 0;
+    }
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+.ingredients {
+  border-left: 4px solid $secondary;
+}
+.method {
+  border-left: 4px solid $tertiary;
+}
