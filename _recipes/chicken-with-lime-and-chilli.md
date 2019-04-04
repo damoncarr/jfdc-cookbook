@@ -35,9 +35,9 @@ source-url:
 tags: curry chicken
 ---
 
-### Method
-- Combine garlic, sugar, oil, lime juice and cornflower in large bowl. Stir in chicken and coat thoroughly with mixture. 
-- Allow to stand in fridge for at least 1 hour.
-- Heat oil for deep frying in sauce pan or wok. Add marinated chicken. Cook, stirring frequently until browned.
-- Add all remaining ingredients and simmer until ready!
-- Serve with steamed rice and green beans or broccoli
+## Method
+1. Combine garlic, sugar, oil, lime juice and cornflower in large bowl. Stir in chicken and coat thoroughly with mixture. 
+1. Allow to stand in fridge for at least 1 hour.
+1. Heat oil for deep frying in sauce pan or wok. Add marinated chicken. Cook, stirring frequently until browned.
+1. Add all remaining ingredients and simmer until ready!
+1. Serve with steamed rice and green beans or broccoli

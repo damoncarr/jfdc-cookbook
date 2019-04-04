@@ -28,19 +28,19 @@ source:
 tags: sweet dessert chocolate caramel
 ---
 
-### Method
-- Preheat oven to 180ºC. Grease 18cm x 28cm baking pan.
+## Method
+1. Preheat oven to 180ºC. Grease 18cm x 28cm baking pan.
 
 **Base**
-- Combine ingredients for base into a bowl, mix well. Press into baking tray.
-- Bake for 10 minutes
-- Allow to cool.
+1. Combine ingredients for base into a bowl, mix well. Press into baking tray.
+1. Bake for 10 minutes
+1. Allow to cool.
 
 **Caramel**
-- Combine NESTLÉ Sweetened Condensed Milk, golden syrup and extra butter in pan. 
-- Stir over medium heat until boiling, reduce heat, stir constantly further 5 minutes.
-- Spread over base, bake further 10 minutes
-- Allow to cool.
+1. Combine NESTLÉ Sweetened Condensed Milk, golden syrup and extra butter in pan. 
+1. Stir over medium heat until boiling, reduce heat, stir constantly further 5 minutes.
+1. Spread over base, bake further 10 minutes
+1. Allow to cool.
 
 **Topping**
-- Spread top of slice with NESTLÉ Dark Melts, refrigerate until set.
+1. Spread top of slice with NESTLÉ Dark Melts, refrigerate until set.

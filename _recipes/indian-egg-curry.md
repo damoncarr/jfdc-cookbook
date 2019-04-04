@@ -30,16 +30,10 @@ source:
 ---
 
 ## Method
-Slice two onions and dice the other two onions and garlic.
-
-Melt butter, add onions, sauté until soft (about 10 mins) on low heat.
-
-Add garlic and tomatoes, sauté 3 mins.
-
-Add remaining ingredients except for the garam masala and eggs.
-
-Simmer uncovered about 30 mins until thicker.
-
-Add halved eggs and garam masala.
-
-Serve with steamed rice.
+1. Slice two onions and dice the other two onions and garlic.
+2. Melt butter, add onions, sauté until soft (about 10 mins) on low heat.
+3. Add garlic and tomatoes, sauté 3 mins.
+4. Add remaining ingredients except for the garam masala and eggs.
+5. Simmer uncovered about 30 mins until thicker.
+6. Add halved eggs and garam masala.
+7. Serve with steamed rice.

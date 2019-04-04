@@ -28,7 +28,7 @@ source:
 tags: tuna rice
 ---
 
-### Method
+## Method
 1. Spread cooked rice over base of large greased oven proof dish.
 2. Melt butter in large saucepan, add chopped onions, sauté until brown, remove from heat.
 3. Add flour and stir until smooth, return to heat, stir for 2 mins.

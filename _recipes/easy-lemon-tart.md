@@ -25,8 +25,8 @@ source:
 tags: lemon dessert sweet
 ---
 
-### Method
-- Whisk eggs in medium bowl.
-- Gradually whisk in sifted flour, then remaining ingredients until well combined.
-- Pour mixture into baking dish.
-- Bake in moderate oven about 45 mins or until set & lightly browned.
+## Method
+1. Whisk eggs in medium bowl.
+1. Gradually whisk in sifted flour, then remaining ingredients until well combined.
+1. Pour mixture into baking dish.
+1. Bake in moderate oven about 45 mins or until set & lightly browned.

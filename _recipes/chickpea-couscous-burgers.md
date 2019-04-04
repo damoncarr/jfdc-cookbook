@@ -31,7 +31,7 @@ storage:
 source:
 ---
 
-### Method
+## Method
 1. Place 1 cup stock in a pan and bring to the boil.  Remove from heat and stir in couscous. Cover and set aside for 5 minutes.
 2. Place remaining stock in another saucepan and cook the zucchini and carrot until no moisture remains. 
 3. Place chickpeas and egg in a food processor and process until pureed. Transfer to a bowl. Stir in the couscous, vegetables, spring onions and coriander.  Shape into 6 patties and barbecue, grill or cook in a non-stick frying pan. 

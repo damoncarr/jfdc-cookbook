@@ -27,12 +27,12 @@ source:
 tags: cake dessert sweet
 ---
 
-### Method
-- Slice apples, add caster sugar. Cinnamon & water. Boil until soft
-- Add berries, ensure that berry and apple mixture is well coated- set aside to cool for 10 mins
-- Place flour, icing sugar, baking powder, butter, egg & vanilla in food processor, combine until a ball forms
-- Roll out into 2 discs- wrap in glad wrap and refrigerate for 15 mins
-- Roll out pastry and place in spring form tin
-- Add fruit mixture, and then add the other pastry to cover the fruit
-- Brush with a little milk and bake in a 180c oven for 30 mins
-- Dust with icing sugar and serve
+## Method
+1. Slice apples, add caster sugar. Cinnamon & water. Boil until soft
+2. Add berries, ensure that berry and apple mixture is well coated- set aside to cool for 10 mins
+3. Place flour, icing sugar, baking powder, butter, egg & vanilla in food processor, combine until a ball forms
+4. Roll out into 2 discs- wrap in glad wrap and refrigerate for 15 mins
+5. Roll out pastry and place in spring form tin
+6. Add fruit mixture, and then add the other pastry to cover the fruit
+7. Brush with a little milk and bake in a 180c oven for 30 mins
+8. Dust with icing sugar and serve

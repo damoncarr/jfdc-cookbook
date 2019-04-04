@@ -29,7 +29,7 @@ storage:
 source:
 ---
 
-### Method
+## Method
 1. Combine lamb, oil, 1 teaspoon of the sugar, juice, wine, sauce, garlic and rosemary in bowl, cover, refrigerate 3 hours or overnight.
 2. Drain lamb, reserve marinade. Place tomatoes in single layer on oven tray, sprinkle with remaining sugar. Bake uncovered in moderate oven for 20 minutes.
 3. Meanwhile, add pasta to large pan of boiling water, boil, uncovered, until just tender, drain.

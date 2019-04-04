@@ -24,7 +24,7 @@ source:
 notes:
 ---
 
-### Method
+## Method
 1. Combine ½ cup stock with mince, garlic, egg & breadcrumbs.  Roll into balls.
 2. Heat oil in a large frying pan. Add meatballs & cook until browned all over. Pour over remaining stock, tomato paste & rosemary. Bring to the boil, reduce heat & cook, covered, for 10 mins, stirring occasionally. 
 3. Stir in risoni & tomatoes. Cook for 8 mins, uncovered, stirring occasionally, or until pasta is al dente. Garnish with parsley & serve with steamed vegetables & parmesan.

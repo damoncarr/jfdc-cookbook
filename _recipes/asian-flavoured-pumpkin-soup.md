@@ -28,11 +28,8 @@ storage: Covered, in refrigerator
 source:
 ---
 
-### Method
-Peel and seed pumpkin, cut pumpkin into 1.5cm cubes.
-
-Heat oil in large pan, add garlic, onion, sambal oelek and lemon grass, cook, stirring, until onion is soft.
-
-Add pumpkin, cook, stirring, 1 minute. Add water, stock powder, sauce and juice, simmer, covered, until pumpkin is just tender.
-
-Blend or process the mixture until smooth, return puree to mixture in pan. Add coconut cream and herbs, stir over heat until hot.
+## Method
+1. Peel and seed pumpkin, cut pumpkin into 1.5cm cubes.
+2. Heat oil in large pan, add garlic, onion, sambal oelek and lemon grass, cook, stirring, until onion is soft.
+3. Add pumpkin, cook, stirring, 1 minute. Add water, stock powder, sauce and juice, simmer, covered, until pumpkin is just tender.
+4. Blend or process the mixture until smooth, return puree to mixture in pan. Add coconut cream and herbs, stir over heat until hot.

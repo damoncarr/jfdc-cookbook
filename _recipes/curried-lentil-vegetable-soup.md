@@ -27,9 +27,9 @@ source:
 tags: soup lentils vegetables
 ---
 
-### Method
-- Heat oil in large pan
-- Add curry powder and onion, stir over medium heat for about 2 mins until onion is soft.
-- Add water, stock cube and tom paste, bring to boil, reduce heat. 
-- Add lentils, cover, simmer for 15 mins.
-- Add vegies, cover, simmer for about 15 mins or until vegies and lentils are tender.
+## Method
+1. Heat oil in large pan
+1. Add curry powder and onion, stir over medium heat for about 2 mins until onion is soft.
+1. Add water, stock cube and tom paste, bring to boil, reduce heat. 
+1. Add lentils, cover, simmer for 15 mins.
+1. Add vegies, cover, simmer for about 15 mins or until vegies and lentils are tender.

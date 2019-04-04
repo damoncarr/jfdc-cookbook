@@ -24,7 +24,7 @@ source:
 tags: chicken
 ---
 
-### Method
+## Method
 1. Preheat oven to medium-hot
 2. Mix the mince and breadcrumbs in large bowl
 3. Add spring onions, ground and fresh coriander, chilli sauce and lemon juice. Mix well

@@ -1,9 +1,9 @@
 ---
-title: Rambos Chicken Curry
+title: Rambo's Chicken Curry
 layout: recipe
 cuisine: 
 ingredients:
-  - title:
+  - title: Chicken
     list: 
       - 3 piece of Maryland (each cut into 3 pieces... leave skin on leg)
       - 2 tablespoons Roasted curry powder
@@ -11,19 +11,37 @@ ingredients:
       - 1 teaspoon Chilli powder
       - 1 teaspoon Salt
       - 1 teaspoon Lemon pepper
-      - OPTIONAL - 1 tablespoon madras curry powder
-      - yeeweds
-  - title: For sauce
+      - 1 tablespoon madras curry powder (Optional)
+  - title: For curry
     list:
-      - sauce 1
-      - sauce 2
+      - 1 red onion (sliced)
+      - 3 garlic cloves (crushed)
+      - 1 nob of ginger (crushed)
+      - 2 green chillis - seeded, sliced
+      - 1 stick cinnamon
+      - 1 piece of rampa
+      - 10 curry leaves
+      - 5 cardamon pods (crushed)
+      - 3 tablespoons of veg oil
+      - 1 tablespoon madras curry paste (Optional)
+      - 1 can Tomato chopped
+      - 1 teaspoon of pepper
+      - 1 teaspoon of sweet paparika
 serves: 4-6
 prep-time: 
 cook-time: 
+source: Rambo
+tags: curry chicken chilli spice rice
 ---
 
-### Method
-1. Place 1 cup stock in a pan and bring to the boil.  Remove from heat and stir in couscous. Cover and set aside for 5 minutes.
-2. Place remaining stock in another saucepan and cook the zucchini and carrot until no moisture remains. 
-3. Place chickpeas and egg in a food processor and process until pureed. Transfer to a bowl. Stir in the couscous, vegetables, spring onions and coriander.  Shape into 6 patties and barbecue, grill or cook in a non-stick frying pan. 
-4. Make burgers by layering lettuce, red onion, tomatoes, cucumber and couscous patties and a dollop of yoghurt between the Turkish bread or burger rolls.
+## Method
+
+### Chicken prep
+1. Mix all ingredients together and rub into chicken. Leave for 1 hour.
+
+### Curry
+1. Fry onion, herbs, spices and curry paste together until onion turns golden.
+2. Add tomato, pepper and sweet paprika. Cook for 3-4 mins.
+3. Add marinated chicken and any spice mix left in bowl.
+4. Mix all and cook, covered, for about 45 mins or until chicken is cooked.
+5. Serve with rice.
