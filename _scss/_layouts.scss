@@ -21,3 +21,38 @@
     margin-right: 90px;
   }
 }
+
+// table of contents on homepage
+.toc {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+
+  li {
+    list-style: none;
+    flex: 0 0 30%;
+    align-items: stretch;
+    margin-bottom: 1em;
+    border: 1px solid gray;
+    transition: all ease-in-out 250ms;
+
+    &:hover {
+      background: gray;
+      color: #fff;
+    }
+
+    a {
+      font-size: 0.8em;
+      padding: 10px;
+      display: block;
+      text-align: center;
+      border: none;
+
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+}
