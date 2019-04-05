@@ -17,14 +17,15 @@ ingredients:
   - title: Topping
     list: 
       - 150 g NESTLÉ Dark Melts, melted
-serves: 
+serves: 24
 prep-time: 
 cook-time: 
 notes: 
-freeze: 
+freeze: Yes
 microwave: 
-storage: 
-source:
+storage: Fridge
+source: Essential Kids
+sourceurl: http://www.essentialkids.com.au/forums/index.php?/topic/533727-choc-caramel-slice/#entry7217005
 tags: sweet dessert chocolate caramel
 ---
 

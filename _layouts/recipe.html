@@ -5,6 +5,7 @@ layout: default
 <div class="page">
   <h1 class="page-title">{{ page.title }}</h1>
   
+
   <div class="metadata recipe-section">
   
     {% if page.serves %}
@@ -30,6 +31,23 @@ layout: default
       <strong>Cuisine:</strong> {{ page.cuisine }}
     </div>
     {% endif %}
+
+    <div class="freeze-microwave">
+      <div class="freeze">
+        {% if page.freeze %}
+        <strong>Freeze:</strong> ✔
+        {% else %}
+        <strong>Freeze:</strong> ❌
+        {% endif %}
+      </div>
+      <div class="microwave">
+          {% if page.microwave %}
+          <strong>Microwave:</strong> ✔
+          {% else %}
+          <strong>Microwave:</strong> ❌
+          {% endif %}
+        </div>
+    </div>
 
     {% if page.source %}
     <div class="source">
