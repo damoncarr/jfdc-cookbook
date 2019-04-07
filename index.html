@@ -1,0 +1,9 @@
+---
+layout: default
+---
+
+<ul class="toc">
+  {% for item in site.recipes %}
+    <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+  {% endfor %}
+</ul>

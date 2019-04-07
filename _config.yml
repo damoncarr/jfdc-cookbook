@@ -1,13 +1,14 @@
 ---
-title: jfdc cookbook
+title: JFDC Cookbook
 timezone: UTC
 collections:
   posts:
     title: Posts
     output: true
-  recipies:
-    title: Recipies
+  recipes:
+    title: Recipes
     output: true
+    permalink: "/:collection/:name/"
   uploads:
     title: Uploads
     output: true
@@ -23,4 +24,23 @@ defaults:
     type: pages
   values:
     layout: page
+tagline: A collection of recipes we like to cook
+email: dc@damon.com.au
+description: Yummy food
+baseurl: "/"
+url: ''
+twitter_username: damo
+instagram_username: damo.photo
+facebook_username: 
+markdown: kramdown
+highlighter: pygmentize
+exclude:
+- node_modules
+- gulpfile.js
+- package.json
+plugins:
+- jekyll-feed
+- jekyll-paginate
 permalink: pretty
+sass:
+  sass_dir: css

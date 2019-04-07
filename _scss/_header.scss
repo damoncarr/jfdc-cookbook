@@ -1,0 +1,159 @@
+/*
+ * Masthead
+ *
+ * Super small header above the content for site name and short description.
+ */
+
+.masthead {
+  padding: 2rem;
+  // margin-bottom: -10px;
+  margin: 0;
+  background: $secondary;
+  text-align: right;
+
+  @include respond(med) {
+  	// margin: 30px 0 2.5rem 0;
+  }
+
+  a {
+    display: block;
+    border: none;
+    // line-height: 0.7;
+    font-size: 1.5em;
+  }
+}
+
+.site-title {
+  display: none;
+  color: rgba(#fff, 0.5);
+  font-family: 'Roboto Slab', serif; 
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: right;
+}
+.tagline {
+	font-size: 0.75rem;
+	color: #ccc;
+	margin-top: 10px;
+}
+#logosvg {
+  fill: #fff;
+  max-width: 150px;
+
+  #book {
+    fill: rgba(#fff, 0.5);
+  }
+}
+.masthead .container {
+
+  // width: 90%;
+  // margin-left: 0;
+
+	// @include respond(sml) {
+	// 	margin-top: 0;
+	// }
+
+  @include respond(med) {
+    width: auto;
+    max-width: 100%;
+    // padding-right: 90px;
+  }
+
+}
+
+.masthead svg {
+  width: 100%;
+  max-width: 200px;
+
+  @include respond(sml) {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+// 
+// set variables for masthead links
+// 
+$bottom-border-weight: 4px;
+
+
+
+nav.masthead-nav {
+  display: none;
+  
+
+  @include respond(med) {
+    display: block;
+    float: right;
+    text-align: right;
+    // flex-wrap: wrap;
+    max-width: 50%;
+  }
+
+  @include respond(xlge) {
+    // width: 60%;
+    // max-width: 60%;
+    display: block;
+    text-align: right;
+    margin-top: 0;
+  }  
+
+  a {
+    transition: all ease .3s;
+    font-size: 0.8em;
+    padding: 0.5em 1em 0.5em 0;
+    margin: 10px;
+    border-bottom: $bottom-border-weight solid #fff;
+    // flex: 1 1 0;
+
+    &:hover {
+      text-decoration: none;
+      background: #fff;
+    }
+
+    @include respond(med) {
+      // width: 300px;
+      // max-width: 200px;
+      display: block;
+      margin-top: 0;
+      padding: 0 5px 5px 25px;
+    }
+
+    // @include respond(lge) {
+    //   display: inline-block;
+    //   width: auto;
+    //   margin-top: 0;
+    //   padding: 30px 10px 10px 10px;
+    // }
+
+  }
+}
+
+nav.masthead-nav a.nav-item-photography {
+  // color: $photo-main;
+
+  &:hover {
+    // border-bottom: $bottom-border-weight solid $photo-main;
+  }
+}
+nav.masthead-nav a.nav-item-graphicdesign {
+  // color: $design-main;
+
+  &:hover {
+    // border-bottom: $bottom-border-weight solid $design-main;
+  }
+}
+nav.masthead-nav a.nav-item-webdev {
+  // color: $webdev-main;
+
+  &:hover {
+    // border-bottom: $bottom-border-weight solid $webdev-main;
+  }
+}
+nav.masthead-nav a.nav-item-contact {
+  color: #c1c2c3;
+
+  &:hover {
+    border-bottom: $bottom-border-weight solid #c1c2c3;
+  }
+}

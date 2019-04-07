@@ -1,0 +1,40 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<!-- isotope.js -->
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+<!-- gallery filer -->
+<script src="{{ "/assets/js/gallery-filter.js" }}"></script>
+<!-- shinybox -->
+<script src="{{ "/assets/js/jquery.shinybox.js" }}"></script>
+
+
+<script type="text/javascript">
+    jQuery(function($) {
+
+        /* Isotope */
+        var shinyboxInstance = $(".shinybox-isotope:not(.isotope-hidden .shinybox-isotope)").shinybox();
+
+        var $container = $('#grid');
+        var optionFilter = $('#filter'),
+        optionFilterLinks = optionFilter.find('a');
+        optionFilterLinks.attr('href', '#');
+
+        onAnimationCompleted = function(){
+            shinyboxInstance.refresh();
+        };
+
+        optionFilterLinks.click( function(){
+            var selector = $(this).attr('data-filter');
+            $container.isotope({
+                filter : '.' + selector,
+                itemSelector : '.photo',
+                layoutMode : 'fitRows',
+                animationEngine : 'best-available',
+            }, onAnimationCompleted);
+
+            // Highlight the correct filter
+            optionFilterLinks.removeClass('active');
+            $(this).addClass('active');
+            return false;
+        });
+    });
+</script>

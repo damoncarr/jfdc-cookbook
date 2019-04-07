@@ -1,0 +1,53 @@
+.method ol li {
+  margin-bottom: 1em;
+}
+.recipe-section {
+  padding: 1em 40px;
+  margin: 3em 0;
+  border-radius: 10px;
+
+  ul, ol {
+    // margin-left: 0;
+    padding-left: 1.2em;
+    list-style-position: outside;
+  }
+}
+.metadata {
+  border: 1px solid $primary;
+  border-left: 10px solid $primary;
+  background: lighten($primary, 70%);
+
+  div {
+    margin: 1em 0;
+
+    &:first-child {
+      margin-top: 0;
+    }
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+.ingredients {
+  border: 1px solid $secondary;
+  border-left: 10px solid $secondary;
+  background: lighten($secondary, 50%);
+}
+.method {
+  border: 1px solid $tertiary;
+  border-left: 10px solid $tertiary;
+  background: lighten($tertiary, 30%);
+
+}
+
+.taglist {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  font-size: 0.8em;
+
+  li {
+    display: inline-block;
+  }
+}

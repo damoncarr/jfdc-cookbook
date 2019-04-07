@@ -1,0 +1,94 @@
+---
+layout: default
+---
+
+<div class="page">
+  <h1 class="page-title">{{ page.title }}</h1>
+  
+
+  <div class="metadata recipe-section">
+  
+    {% if page.serves %}
+      <div class="serves">
+        <strong>Serves:</strong> {{ page.serves }}
+      </div>
+    {% endif %}
+
+    {% if page.prep-time %}
+      <div class="preptime">
+        <strong>Prep time:</strong> {{ page.prep-time }}
+      </div>
+    {% endif %}
+    
+    {% if page.cook-time %}
+      <div class="cooktime">
+        <strong>Cooking time:</strong> {{ page.cook-time }}
+      </div>
+    {% endif %}
+
+    {% if page.cuisine %}
+    <div class="cuisine">
+      <strong>Cuisine:</strong> {{ page.cuisine }}
+    </div>
+    {% endif %}
+
+    <div class="freeze-microwave">
+      <div class="freeze">
+        {% if page.freeze %}
+        <strong>Freeze:</strong> ✔
+        {% else %}
+        <strong>Freeze:</strong> ❌
+        {% endif %}
+      </div>
+      <div class="microwave">
+          {% if page.microwave %}
+          <strong>Microwave:</strong> ✔
+          {% else %}
+          <strong>Microwave:</strong> ❌
+          {% endif %}
+        </div>
+    </div>
+
+    {% if page.source %}
+    <div class="source">
+      {% if page.sourceurl %}
+      <strong>Source:</strong> <a href="{{ page.sourceurl }}">{{ page.source }}</a>
+      {% else %}
+      <strong>Source:</strong> {{ page.source }}
+      {% endif %}
+    </div>
+    {% endif %}
+
+
+    {% if page.notes %}
+      <div class="notes">
+        <strong>Notes:</strong> <br>{{ page.notes }}
+      </div>
+    {% endif %}
+  </div>
+
+
+
+  <div class="ingredients recipe-section">
+    <h2>Ingredients</h2>
+      {% for ingredients in page.ingredients %}
+        {% if ingredients.title %}
+          <h3>{{ ingredients.title }}</h3>
+        {% endif %}
+        <ul>
+          {% for item in ingredients.list %}
+            <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      {% endfor %}
+  </div>
+  <div class="method recipe-section">
+    {{ content }}
+  </div>
+</div>
+
+<ul class="taglist">
+  {% for tag in page.tags %}
+      <li> {{tag}} </li>
+  {% endfor %}
+  </ul>

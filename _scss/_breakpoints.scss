@@ -1,0 +1,36 @@
+$bp-xsmall: 550px;
+$bp-small: 870px;
+$bp-medium: 954px;
+$bp-large: 1024px;
+$bp-xlarge: 2000px;
+
+@mixin respond($media) {
+  @if $media == xsml {
+    @media only screen and (max-width: $bp-xsmall) { @content; }
+  }
+  @if $media == sml {
+    @media only screen and (min-width: $bp-xsmall + 1) { @content; }
+  }
+  @else if $media == med {
+    @media only screen and (min-width: $bp-small + 1) { @content; }
+  }
+  @else if $media == lge {
+    @media only screen and (min-width: $bp-medium + 1) { @content; }
+  }
+  @else if $media == xlge {
+    @media only screen and (min-width: $bp-large + 1) { @content; }
+  }
+}
+
+
+//  ======================
+//  Mixin usage 
+//  ======================
+
+// #header {
+//   margin-bottom: 10px;
+// 
+//   @include respond(sml) {
+//     margin-bottom: 300px;
+//   }
+// }

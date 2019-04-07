@@ -1,0 +1,15 @@
+h1, h2, h3, h4, h5, h6 {
+  color: $primary;
+
+}
+.notes {
+  border: 1px solid $highlight;
+  background: lighten($highlight, 30%);
+  padding: 1em;
+  border-radius: 5px;
+}
+a {
+  color: #000;
+  text-decoration: none;
+  border-bottom: 2px solid $primary;
+}
