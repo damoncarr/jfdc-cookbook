@@ -5,6 +5,7 @@ var autoprefixer = require('autoprefixer');
 var sourcemaps = require('gulp-sourcemaps');
 var postcss = require('gulp-postcss');
 var uglify = require('gulp-uglify');
+var replace = require('gulp-replace');
 var rename = require('gulp-rename');
 var cp = require('child_process');
 var flatten = require('gulp-flatten');
@@ -16,7 +17,7 @@ var mode = require('gulp-mode')();
 
 var paths = {
   styles: {
-    src: '_scss/**/*.scss',
+    src: 'css/*.scss',
     dest: '_site/css',
     destsecond: 'css'
   },
@@ -33,6 +34,8 @@ function jekyllBuild() {
 
 function style() {
   return gulp.src(paths.styles.src)
+    .pipe(sourcemaps.init()) // init sourcemaps
+    .pipe(replace('---','')) // use gulp-replace to delete jekyll front matter required by netlify
     .pipe(sass({
       includePaths: ['scss'],
       outputStyle: 'expanded',
@@ -41,6 +44,7 @@ function style() {
     .pipe(postcss([
       autoprefixer()
     ]))
+    .pipe(sourcemaps.write()) //write sourcemaps
     .pipe(gulp.dest(paths.styles.dest))
     .pipe(browserSync.reload({stream:true}))
     .pipe(gulp.dest(paths.styles.destsecond));
