@@ -38,8 +38,11 @@ exclude:
 - node_modules
 - gulpfile.js
 - package.json
+- README.md
+- Gemfile
+- Gemfile.lock
+- package-lock.json
 plugins:
-- jekyll-feed
 - jekyll-paginate
 permalink: pretty
 sass:
