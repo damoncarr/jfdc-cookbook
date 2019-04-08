@@ -1,2 +1,2 @@
 # jfdc-cookbook
-A collection of recipies
+A collection of recipes
