@@ -89,6 +89,7 @@ function watch() {
     '_recipes/*',
     '_posts/*',
     'js/',
+    '_scss/',
     '_includes/*'
   ],
   gulp.series(jekyllBuild, browserSyncReload));

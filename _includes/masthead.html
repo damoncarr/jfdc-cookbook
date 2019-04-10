@@ -1,24 +1,17 @@
 <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
      content to avoid any CSS collisions with our real content. -->
 <div class="wrap">
-  <div class="masthead">
+  <div class="masthead group">
+    <div class="logo">
       <a href="{{ site.baseurl }}" title="Home">
         <div class="site-title">{{ site.title }}</div>
         {% include logo.html %}
       </a>
-        <!-- <div class="tagline">{{ site.tagline }}</div> -->
-      </h1>
-
-      {% if page.url != site.baseurl %}
-      <nav class="masthead-nav">
-        {% assign pages_list = site.pages | sort:"nav-order" %}
-        {% for node in pages_list %}
-          {% if node.inMastheadNav %}
-            <a class="masthead-nav-item {{ node.nav-class }} {% if page.url == node.url %}active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
-          {% endif %}
-        {% endfor %}
-      </nav>
-      {% endif %}
+    </div>
       
+    <div class="tagline">
+      {{ site.tagline }}
+    </div>
+
     </div>
   </div>

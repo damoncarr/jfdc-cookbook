@@ -24,7 +24,7 @@ defaults:
     type: pages
   values:
     layout: page
-tagline: A collection of recipes we like to cook
+tagline: A collection of recipes we like to cook.
 email: dc@damon.com.au
 description: Yummy food
 baseurl: "/"

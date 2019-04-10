@@ -9,7 +9,7 @@
   // margin-bottom: -10px;
   margin: 0;
   background: $secondary;
-  text-align: right;
+  text-align: left;
 
   @include respond(med) {
   	// margin: 30px 0 2.5rem 0;
@@ -25,20 +25,37 @@
 
 .site-title {
   display: none;
-  color: rgba(#fff, 0.5);
-  font-family: 'Roboto Slab', serif; 
-  font-weight: 700;
-  text-transform: uppercase;
-  text-align: right;
 }
 .tagline {
-	font-size: 0.75rem;
-	color: #ccc;
-	margin-top: 10px;
+	font-size: 1.3rem;
+	color:  rgba(#fff, 0.5);
+  // margin-top: 10px;
+  font-family: 'Roboto Slab', serif;
+  line-height: 1.1;
+  float: right;
+  text-align: right;
+  width: 50%;
+
+  @include respond(sml) {
+    font-size: 1.5rem;
+    text-align: left;
+    float: left;
+    margin-left: 5%;
+    width: 75%;
+  }
+}
+.logo {
+  float: left;
+  max-width: 100px;
+
+  @include respond(sml) {
+    width: 20%;
+    max-width: 150px;
+  }
 }
 #logosvg {
   fill: #fff;
-  max-width: 150px;
+  width: 100%;
 
   #book {
     fill: rgba(#fff, 0.5);
