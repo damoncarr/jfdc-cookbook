@@ -18,7 +18,7 @@ prep-time:
 cook-time: 60
 notes: 
 freeze: 
-microwave: Yes
+microwave: 'Yes'
 storage: 
 source:
 tags: lemon dessert sweet

@@ -32,22 +32,17 @@ layout: default
     </div>
     {% endif %}
 
-    <div class="freeze-microwave">
-      <div class="freeze">
-        {% if page.freeze %}
-        <strong>Freeze:</strong> ✔
-        {% else %}
-        <strong>Freeze:</strong> ❌
-        {% endif %}
-      </div>
-      <div class="microwave">
-          {% if page.microwave %}
-          <strong>Microwave:</strong> ✔
-          {% else %}
-          <strong>Microwave:</strong> ❌
-          {% endif %}
-        </div>
+    {% if page.freeze %}
+    <div class="freeze">
+      <strong>Freeze:</strong> {{ page.freeze }}
     </div>
+    {% endif %}
+
+    {% if page.microwave %}
+    <div class="microwave">
+      <strong>Microwave:</strong> {{ page.microwave }}
+    </div>
+    {% endif %}
 
     {% if page.source %}
     <div class="source">
