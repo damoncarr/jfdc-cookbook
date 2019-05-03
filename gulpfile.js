@@ -38,7 +38,7 @@ function style() {
     .pipe(replace('---','')) // use gulp-replace to delete jekyll front matter required by netlify
     .pipe(sass({
       includePaths: ['scss'],
-      outputStyle: 'expanded',
+      outputStyle: 'compressed',
       onError: browserSync.notify
     }))
     .pipe(postcss([
