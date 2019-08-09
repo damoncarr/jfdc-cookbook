@@ -1,5 +1,5 @@
 ---
-title: Perfect Vegetarian Chili
+title: Perfect Vegetarian Chilli
 layout: recipe
 cuisine: Mexican
 ingredients:
@@ -35,9 +35,9 @@ notes:
 freeze: Yes
 microwave: Yes
 storage: 
-source: 
-sourceurl: 
-tags: vegetarian chili beans lentils
+source: A Modern Way to Eat - Anna Jones
+sourceurl: http://annajones.co.uk
+tags: vegetarian chilli beans lentils
 ---
 
 ## Method
