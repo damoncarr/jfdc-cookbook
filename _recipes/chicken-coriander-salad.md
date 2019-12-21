@@ -26,7 +26,7 @@ ingredients:
 serves: 8
 prep-time: 
 cook-time: 
-notes: 
+notes: Fresh and permeated with the musky flavour of coriander, this salad is crisply fresh and one for those who love oriental flavours. The single chilli will make it quite spicy. You can adjust this according to your own taste but it needs to have a little heat for the flavours to balance each other. It serves four with some rice, or even a few noodles on the side.
 freeze: No
 microwave: 
 storage: Fridge
