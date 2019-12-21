@@ -10,7 +10,6 @@ var rename = require('gulp-rename');
 var cp = require('child_process');
 var flatten = require('gulp-flatten');
 var jekyll = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
-var source = require('vinyl-source-stream');
 var concatjs = require('gulp-concat');
 var browserSync = require('browser-sync').create();
 var mode = require('gulp-mode')();

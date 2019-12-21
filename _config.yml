@@ -8,7 +8,7 @@ collections:
   recipes:
     title: Recipes
     output: true
-    permalink: "/:collection/:name/"
+    permalink: "/recipe/:name/"
   uploads:
     title: Uploads
     output: true
